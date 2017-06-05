@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="shortcut icon" href="favicon.ico.ico.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTZ</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <!-- este es un comentario -->
+    <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+    <div class="login-form">
+
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="Logo">
+      <h1 align="center"><img src="img/1.png" alt="logotibal" width="250em" height="200"/></h1>
+      <h2 align="center">Reparacion de equipo de computo</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" >Inicio</a></li>
+          <li><a href="Noticias.html">Noticias</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="Entretenimiento.html">Entretenimiento</a></li>
+          <li><a href="APP.html">APP</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="contacto.html" class="selected">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>Información general</h3>
+        <p>Actualmente no estoy buscando un trabajo como desarrollador, pero estoy disponible como instructor o conferencista. Si tienes alguna pregunta no dudes en contactarme</p>
+      </section>
+      <section id="secondary">
+        <h3>Detalles de contacto</h3>
+        <ul class="contact-info">
+          <li class="phone"><a href="tel:555-6425">555-6425</a></li>
+          <li class="mail"><a href="mailto:antztech05@gmail.com">antztech05@gmail.com</a></li>
+          <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=antztech05@gmail.com_">@antztech</a></li>
+        </ul>
+      </section>
+      <section id="CECYTE">
+        <form id="contactForm" method="post" action="php/contact-form.php">
+          <div>
+            <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required />
+          </div>
+          <div>
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>
+          <div>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Asunto" required>
+          </div>
+          <div>
+            <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="5" required></textarea>
+          </div>
+          <div>
+            <input type="submit" class="form-send" value="Enviar">
+          </div>
+        </form>
+      </section>
+      <footer>
+        <a href="https://twitter.com/antztech05"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; ANTZ 2107</p>
+      </footer>
+    </div>
+  </body>
+</html>
